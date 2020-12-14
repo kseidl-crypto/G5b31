@@ -15,5 +15,17 @@ public class Test {
         System.out.println(s);
         System.out.println(a+" "+b) ;
 
+        Stack<String> text = new Stack<String>(4);
+        text.push("Hallo");
+        text.push("Wie");
+        text.push("Geht's");
+        text.push("Dir?");
+
+        String ta = text.peek();
+
+        String s3 = text.list();
+        System.out.println(s3);
+        System.out.println(ta);
+
     }
 }
