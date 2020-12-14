@@ -1,3 +1,8 @@
+/**
+ * Testet Klasse Stack
+ * @author kseidl
+ * @version 14.12.20
+ */
 public class Test {
     public static void main (String args[]) throws StackEmptyException, StackFullException {
         Stack<Integer> zahlen;
