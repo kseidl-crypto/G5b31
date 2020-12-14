@@ -65,7 +65,9 @@ public class Stack <E>{
             if(i == object.length-1){
                 text+=object[i];
             }
-            text+= object[i]+", ";
+            else {
+                text += object[i] + ", ";
+            }
         }
         return text;
     }
